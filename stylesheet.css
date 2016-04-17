@@ -1,24 +1,30 @@
 body {
-	font-family: Georgia, serif;
-	height: auto;
-	width: auto;
-	border: 1px solid black;
-	margin-top: 35px;
-	margin-right: 35px;
-	margin-left: 35px;
-	margin-bottom: 35px;
-	background-color: lightgrey;
-	padding: 30px;
-	table-layout: center;
+  font-family:  Courier, Helvetica, Garamond, sanserif;
+	padding: 85px 85px 85px 85px;
+	margin: 95px 95px 95px 95px;
+    border: 1px solid black;
+    box-shadow: inset 5px 5px 5px #7d8085;
 }
 
-.address {text-align: center;
-line-height: 5px}
+header p {
+	text-align: center;
+    line-height: 0px; 
+}
 
-.objective {line-height: }
+p:last-child{
+  padding-bottom: 25px }
 
-.experience {line-height: }
+h3 {
+	text-align: left;
+	border-bottom: 1px solid black;
+}
 
-.additionale {line-height: }
+p {
+   padding: 3px 0 0 0;
+}
 
-.references {line-height: }
+ul li {
+  padding: 0px 80px 15px 0px;
+  line-height: 1.5;
+
+}
